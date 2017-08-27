@@ -1,5 +1,5 @@
 
-# Control Itead Sonoff WiFi Smart Socket S20 with MicroPython
+# Control Itead S20 WiFi Smart Socket with MicroPython
 
 ## Pre-requisites
 
@@ -179,7 +179,6 @@ Connect to the webrepl and write following code to the Python prompt:
     relay = Pin(12, Pin.OUT)
     relay.on()  # turn power on
     relay.off() # turn power off
-
 
 
 
